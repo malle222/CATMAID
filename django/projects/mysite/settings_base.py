@@ -75,7 +75,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     # Instead of 'django.contrib.admin', in order to disable the automatic
-    # auto-discovery, which would interfer with django-adminplus.
+    # auto-discovery, which would interfere with django-adminplus.
     'django.contrib.admin.apps.SimpleAdminConfig',
     'django.contrib.staticfiles',
     'django.contrib.gis',
@@ -343,7 +343,7 @@ for any data lost.</li>
 </ol>
 """
 
-# A new user's defaul groups
+# A new user's default groups
 NEW_USER_DEFAULT_GROUPS = []
 
 # Whether the creation of new users should cause the creation of a group with
@@ -525,7 +525,7 @@ DEFAULT_CACHE_GRID_CELL_DEPTH = 40
 # connector links).
 SPATIAL_UPDATE_NOTIFICATIONS = False
 
-# On statup, the default client instance settings can be populated based on a
+# On startup, the default client instance settings can be populated based on a
 # JSON string, representing a list of objects with a "key" field and a "value"
 # field. These settings will only be applied if they exist already.
 INSTANCE_CLIENT_SETTINGS = None
